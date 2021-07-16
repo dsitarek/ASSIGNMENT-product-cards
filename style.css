@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda&family=Zen+Tokyo+Zoo&display=swap");
+@import url(palette.css);
+
+body {
+  background-image: url("img/flagbackground.jpg");
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  font-family: "Zen Tokyo Zoo", helvetica;
+  color: white;
+  text-shadow: 2px 2px 2px blue, 4px 4px 3px red;
+  position: relative;
+  margin-top: -10%;
+  background-color: rgba(50, 50, 50, 0.5);
+  text-align: center;
+  margin-top: 0px;
+}
+
+.store-text {
+  font-size: 6em;
+  margin-top: -100px;
+}
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.5em;
+  margin: -100px 10% 0 10%;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-items a:hover {
+  font-size: 1.1em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 28%;
+  margin: 2%;
+  font-size: 1.25em;
+  font-weight: bold;
+  box-shadow: 4px 4px 6px rgb(5, 141, 187);
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  font-family: Coda;
+  background-image: repeating-linear-gradient(
+    lightblue 30%,
+    white,
+    rgba(255, 50, 50, 0.7)
+  );
+  min-width: 190px;
+}
+
+.img {
+  max-width: 100%;
+  z-index: 0;
+  align-items: center;
+}
+
+.header {
+  border: solid 1px lightblue;
+  border-radius: 2px 2px 0 0;
+  text-align: center;
+  margin: 0 -1px 0 -1px;
+  background-color: lightblue;
+}
+
+.flex-section1 {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.in-stock {
+  background: darkgray;
+  font-weight: bold;
+  margin-bottom: 1%;
+  text-align: left;
+}
+
+.in-stock :only-child {
+  margin: 1% 0 1% 1%;
+  color: yellow;
+}
+
+.flex-section2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+h2 {
+  margin: 1% 0 1% 0;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin: 0% 0 -3% -3%;
+}
+
+footer {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 5% -3% 1% -4%;
+}
+
+.dim {
+  margin: 5% 0 -3% 0;
+}
+
+.description {
+  margin: 2%;
+}
+
+.flex-section3 {
+  margin: 2% 0 0 5%;
+}
+
+h4 {
+  margin: 2% 0 0 -2%;
+}
+
+.prices {
+  margin: 2% 0 2% 2%;
+}
+
+.out-stock {
+  background: darkgray;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.out-stock :only-child {
+  margin: 1% 0 1% 1%;
+  color: yellow;
+}
+
+.sold {
+  width: 70%;
+  z-index: 2;
+  position: relative;
+  bottom: 50%;
+  left: 16%;
+  max-width: 80%;
+}
+.flex-img {
+  margin-bottom: -50%;
+}
