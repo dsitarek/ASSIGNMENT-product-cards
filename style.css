@@ -62,11 +62,11 @@ body {
   border-radius: 5px;
   font-family: Coda;
   background-image: repeating-linear-gradient(
-    lightblue 30%,
+    lightblue 22%,
     white,
     rgba(255, 50, 50, 0.7)
   );
-  min-width: 190px;
+  min-width: 200px;
 }
 
 .img {
